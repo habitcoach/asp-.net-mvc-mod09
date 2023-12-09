@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: white; /*set the initial color to white*/
+}
+
+
+
+/* Media query for screens with a minimum width of 768px */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue; /* Change to your desired background color */
+    }
+}
+
+@media (max-width: 767px) {
+    .red-bg {
+        background-color: black !important; /* Use !important to increase specificity.  This is to change the color of the rectangle */
+    }
+}
+}
